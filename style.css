@@ -1,0 +1,86 @@
+:root {
+  --spacing: 10px;
+  --margint: 0px;
+  --marginr: 0px;
+  --marginb: 0px;
+  --marginl: 0px;
+  --border-type: solid;
+}
+body {
+  text-align: center;
+  background: #193549;
+  color: white;
+  font-family: 'helvetica neue', sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+}
+div{
+  text-align: left;
+}
+.controls {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100px;
+}
+
+div.controls {
+  width: 800px;
+  font-size: .5em;
+  margin: 0 auto 20px;
+  background: rgb(68, 72, 130);
+  padding: 20px;
+  border-radius: 50px;
+  border: solid 5px rgb(109, 112, 151);
+}
+
+.caja {
+  background-color: #ffc600;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  padding: var(--padding);
+  margin: var(--margint) var(--marginr) var(--marginb) var(--marginl);
+  border: var(--border) var(--border-type) orangered;
+  position: relative;
+}
+
+.caja2 {
+  background-color: #ffc600;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  color: white;
+  text-shadow: #8a6d03 2px 2px 6px;
+}
+
+.caja3 {
+  background-color: #a5346d;
+  position: static;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  z-index: 2;
+}
+.text-left {
+  width: 200px;;
+  padding-left: 0;
+  text-align: left;
+}
+h2{
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+h4 {
+  margin-top: 0;
+}
+span{
+  color: #ffc600
+}

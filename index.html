@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Variables CSS y JS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Modelo de <span>caja</span></h2>
+  <h4>(<span>box</span> model)</h4>
+
+  <div class="controls">
+    <div>
+      <label for="padding">padding:</label>
+      <input id="padding" type="range" name="padding" min="0" max="200" value="0" data-sizing="px">
+    </div>
+    <div>
+      <label for="border">border:</label>
+      <input id="border" type="range" name="border" min="0" max="200" value="0" data-sizing="px">
+    </div>
+    <div>
+      <div class="text-left">
+        <label for="bordert">border-type:</label>
+        <input type="radio" id="solid" name="border-type" value="solid" checked>
+        <label for="solid">solid</label><br>
+        <input type="radio" id="double" name="border-type" value="double">
+        <label for="double">double</label><br>
+        <input type="radio" id="dashed" name="border-type" value="dashed">
+        <label for="dashed">dashed</label>
+        <input type="radio" id="dotted" name="border-type" value="dotted">
+        <label for="dotted">dotted</label>
+      </div>
+    </div>
+      <label for="margint">margin-top:</label>
+      <input id="margint" type="range" name="margint" min="0" max="750" value="0" data-sizing="px">
+      <label for="marginr">margin-right:</label>
+      <input id="marginr" type="range" name="marginr" min="0" max="750" value="0" data-sizing="px">
+      <label for="marginb">margin-bottom:</label>
+      <input id="marginb" type="range" name="marginb" min="0" max="750" value="0" data-sizing="px">
+      <label for="marginl">margin-left:</label>
+      <input id="marginl" type="range" name="marginl" min="0" max="750" value="0" data-sizing="px">
+  </div>
+
+  <div class="caja">
+    <div class="caja2">Lorem ipsum dolor sit amet, consectetur</div>
+  </div>
+  <div class="caja3"></div>
+  <div class="caja4"></div>
+  <script src="app.js"></script>
+
+</body>
+</html>
